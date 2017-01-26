@@ -6,5 +6,5 @@ class User < ApplicationRecord
 
   has_many :bookmarks
 
-  belongs_to :user, optional: true
+  
 end
